@@ -2,7 +2,8 @@ source/_checkpoints/
 source/_result_set/
 source/_train_samples/
 source/_database/
-Extract_Vein_By_Trung/
+
+Extract_Vein_By_Trung/*
 !Extract_Vein_By_Trung/Extract_Vein_By_Trung/bin/Release
 
 .ipynb_checkpoints/
