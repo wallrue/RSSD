@@ -14,7 +14,7 @@ eval "cp ${source} ${destination}"
     
 for MODEL in "STGAN" "SIDSTGAN" "SIDPAMIwISTGAN"
 do
-    for VARIABLE in "best" #$(seq 10 10 $loop_string)
+    for VARIABLE in "lastest" #$(seq 10 10 $loop_string)
     do
         destination="$(pwd)/source/_result_set/shadowfree_${MODEL}_rawsynthetic_"
         dir="${destination}${VARIABLE}"
