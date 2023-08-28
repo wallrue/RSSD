@@ -8,7 +8,7 @@ loop_string=200
 loadSize=256
 fineSize=256
 
-for VARIABLE in ('latest') #$(seq 10 10 $loop_string)
+for VARIABLE in latest #$(seq 10 10 $loop_string)
 do
     epoch_checkpoint_load=$((VARIABLE))
     CMD="python test.py \
