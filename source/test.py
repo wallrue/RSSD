@@ -199,4 +199,4 @@ if __name__=='__main__':
 
         experiment_name = opt.name
         PNSR_score, SSIM_score, computing_time = evaluate(dataset, model, result_dir, experiment_name, opt)
-        print_current_losses(os.path.join(result_dir, 'valid.log'), experiment_name, {"PNSR_score": PNSR_score, "SSIM_score": SSIM_score}, computing_time)
+        #print_current_losses(os.path.join(result_dir, 'valid.log'), experiment_name, {"PNSR_score": PNSR_score, "SSIM_score": SSIM_score}, computing_time)
